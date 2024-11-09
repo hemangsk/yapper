@@ -1,6 +1,3 @@
-Here's a comprehensive README.md for your project:
-
-```markdown
 # Yapper - Yet Another Planning Poker
 
 A real-time, peer-to-peer planning poker application built with WebRTC for agile teams.
