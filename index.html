@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yapper</title>   
+<script defer src="./bundle.js"></script></head>
+<body>
+    <div class="container">
+        <h1>yapper</h1>
+        <h6>yet another planning poker</h6>
+        <div id="roomControls">
+            <button id="createRoomBtn">Create Room</button>
+            <br><br>
+            <input type="text" id="roomId" placeholder="Enter room name">
+            <button id="joinBtn">Join Room</button>
+            <button id="shareRoomBtn" style="display:none;">Share Room Link</button>
+        </div>
+        <br>
+        <input type="text" id="nicknameInput" placeholder="Enter your nickname">
+        <button id="setNicknameBtn">Set Nickname</button>
+        <br><br>
+        <input type="number" id="numberInput" placeholder="Enter a number" disabled>
+        <button id="submitBtn" disabled>Submit Number</button>
+        <button id="nextRoundBtn" style="display:none;">Start Next Round</button>
+        <br>
+        <button id="revealBtn" style="display:none;">Reveal Numbers</button>
+        <div id="participants"></div>
+        <div id="messages"></div>
+    </div>
+</body>
+</html>
