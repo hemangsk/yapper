@@ -107,4 +107,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - PeerJS for the excellent WebRTC implementation
 - The open-source community for inspiration
-```
